@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/one_player_relativeLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".OnePlayerMode">
+
+    <include
+        layout="@layout/one_player_images"
+        android:layout_width="match_parent"
+        android:layout_height="334dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="256dp" />
+
+    <TextView
+        android:id="@+id/tv_p1"
+        android:layout_width="191dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/chronometer"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginBottom="0dp"
+        android:text="Match:0/6"
+        android:textAlignment="textStart"
+        android:textColor="#000000"
+        android:textSize="24dp" />
+
+    <Chronometer
+        android:id="@+id/chronometer"
+        android:layout_width="115dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="4dp"
+        android:gravity="center"
+        android:textAlignment="textEnd"
+        android:textColor="#808080"
+        android:textSize="24sp" />
+    <!--    <TextView-->
+    <!--        android:text="P2:0"-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:textSize="32dp"-->
+    <!--        android:textColor="#000000"-->
+    <!--        android:layout_alignParentTop="true"-->
+    <!--        android:layout_alignParentRight="true"-->
+    <!--        android:layout_alignParentEnd="true"-->
+    <!--        android:id="@+id/tv_p2"/>-->
+</RelativeLayout>
+
+
+    <!--
+    <?xml version="1.0" encoding="utf-8"?>
+    <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".OnePlayerMode">
+
+    </androidx.constraintlayout.widget.ConstraintLayout>-->

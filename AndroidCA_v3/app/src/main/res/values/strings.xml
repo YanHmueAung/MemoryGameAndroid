@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Team 6 Memory Game</string>
+    <string name="fetch">Fetch</string>
+    <string name="textView_fetch_desc">https://stocksnap.io/search/food</string>
+    <string name="Downloading">Downloaded </string>
+    <string name="totalImgs"> of 20 images</string>
+    <string name="zero">0</string>
+    <string name="the_game">memory Game</string>
+</resources>
